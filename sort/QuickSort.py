@@ -3,9 +3,9 @@ def Partition(unsorted_list, start_index, end_index):
     if end_index <= start_index:
         return 0
 
-    pivot_index = 0
+    pivot_index = start_index
 
-    j=0
+    j= start_index
 
     for i in range(start_index,end_index):
 
